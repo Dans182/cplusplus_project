@@ -15,7 +15,6 @@ int main () {
 //La función main, es la funcion principal de nuestro código. Es lo primero que ejecuta el programa    
     cout << "Hola mundo";
 //Para mostrar en pantalla, utilzar cout << "Un texto".
-//cout te permite mostrar en pantalla.
 }
 
 //cada vez que le damos una orden a nuestra computadora por medio de 
