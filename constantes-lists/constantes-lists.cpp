@@ -15,5 +15,10 @@ int main()
     // acá declaramos una constante. valor de solo lectura, no modificable.
 
     int lista_edades[] = {10, 20, 30, 40, 50, 60, 70, 80, 90};
+    //aca no podrías combinar varios tipos de datos en una lista. Ejm
+    //Char + int. Tienen que ser todos del mismo tipo de dato.
     cout << letra2 << endl;
+    cout << lista_edades << endl;
+    cout << lista_edades[2] << endl;
+
 }
