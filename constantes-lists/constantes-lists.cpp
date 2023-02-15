@@ -20,5 +20,8 @@ int main()
     cout << letra2 << endl;
     cout << lista_edades << endl;
     cout << lista_edades[2] << endl;
+    lista_edades[2] = 18;
+    //así modificas el valor de un elemento dentro de una lista
+    cout << lista_edades[2] << endl;
 
 }
