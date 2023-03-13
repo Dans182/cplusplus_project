@@ -3,7 +3,7 @@
 using namespace std;
 
 int main () {
-    int  age = 18;
+    int age = 18;
     age = 28;
     cout << "Hola mundo " << age;
     //asi concatenas varias variables o valores para imprimir

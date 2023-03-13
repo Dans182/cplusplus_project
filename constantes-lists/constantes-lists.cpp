@@ -2,8 +2,7 @@
 
 using namespace std;
 
-int main()
-{
+int main(){
     int age = 18;
     age = 28;
     char letra = 'A';
