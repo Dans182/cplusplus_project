@@ -21,10 +21,12 @@ int main()
     a += 1;
     cout << a << endl;
 
-    cout << sizeof(a);
+    cout << sizeof(a) << endl;
     // este operador me indica el tamaño en bites de un valor, de un dato.
 
     int edades[] = {24, 40, 7};
-    cout << sizeof(a);
+    cout << sizeof(edades) << endl;
+    cout << sizeof(edades) / sizeof(edades[0]);
+
 
 }
