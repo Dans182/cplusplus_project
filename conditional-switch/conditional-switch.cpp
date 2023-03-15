@@ -19,6 +19,5 @@ int main(){
             break;
         default:
             cout << "Escogiste un valor que no existe";
-            break;    
     }
 }
