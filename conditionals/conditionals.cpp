@@ -24,9 +24,24 @@ int main()
     cout << "Tu edad es: ";
     cin >> edad;
 
-    if (edad >= 18){
-        cout << "Puedes votar.";
-    } else {
+    /*    if (edad >= 18){
+            if (edad <= 40){
+                cout << "Puedes votar.";
+            } else {
+                cout << "No puedes votar.";
+            }
+            cout << "Puedes votar.";
+        }
+        else {
+            cout << "No puedes votar.";
+        }
+    */
+
+    if (edad < 18) {
         cout << "No puedes votar.";
+    } else if (edad > 40) {
+        cout << "No puedes votar.";
+    } else {
+        cout << "Puedes votar.";
     }
 }
